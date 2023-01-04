@@ -1,2 +1,1 @@
-# alx-higher_level_programming
-High level progamming with python
+This is the readme file for my python project
