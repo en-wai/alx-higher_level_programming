@@ -2,15 +2,19 @@
 
  * File: 13-is_palindrome.c
 
- * Author: En-wai Asare
+ * Auth: En-wai Asare
 
  */
 
+
 #include "lists.h"
+
 
 listint_t *reverse_listint(listint_t **head);
 
 int is_palindrome(listint_t **head);
+
+
 
 /**
 
@@ -30,6 +34,7 @@ listint_t *reverse_listint(listint_t **head)
 
 	listint_t *node = *head, *next, *prev = NULL;
 
+
 	while (node)
 
 	{
@@ -44,12 +49,12 @@ listint_t *reverse_listint(listint_t **head)
 
 	}
 
-
 	*head = prev;
 
 	return (*head);
 
 }
+
 
 /**
 
@@ -122,7 +127,6 @@ int is_palindrome(listint_t **head)
 	}
 
 	reverse_listint(&mid);
-
 
 	return (1);
 
