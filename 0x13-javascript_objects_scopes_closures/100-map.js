@@ -8,6 +8,6 @@ A new list must be created with each value equal to the value of the initial lis
 Print both the initial list and the new list
 */
 
-const list = require('./100-data.js').list;
-console.log(list);
-console.log(list.map((item, index) => item * index));
+const array = require('./100-data.js').list;
+console.log(array);
+console.log(array.map((item, index) => item * index));
