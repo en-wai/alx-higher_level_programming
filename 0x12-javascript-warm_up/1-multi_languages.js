@@ -1,4 +1,4 @@
-!/usr/bin/node
+#!/usr/bin/node
 // Print 3 lines
 let line1 = "C is fun";
 let line2 = "Python is cool";
