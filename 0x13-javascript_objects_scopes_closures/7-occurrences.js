@@ -5,11 +5,11 @@ Prototype: exports.nbOccurences = function (list, searchElement)
 */
 
 exports.nbOccurences = function (list, searchElement) {
-  let num_occ = 0;
+  let numOcc = 0;
   for (let i = 0; i < list.length; i++) {
     if (list[i] === searchElement) {
-      num_occ += 1;
+      numOcc += 1;
     }
   }
-  return num_occ;
+  return numOcc;
 };
