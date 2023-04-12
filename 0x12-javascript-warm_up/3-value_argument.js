@@ -1,11 +1,8 @@
 #!/usr/bin/node
-// Print the message depending on num of argument passed
-const argv = process.argv.slice(2);
-
-if (argv.length === 0) {
+// prints the first argument passed
+const arg = process.argv[2];
+if (arg === undefined) {
   console.log('No argument');
-} else if (argv.length === 1) {
-  console.log('Argument found');
 } else {
-  console.log('Arguments found');
+  console.log(arg);
 }
